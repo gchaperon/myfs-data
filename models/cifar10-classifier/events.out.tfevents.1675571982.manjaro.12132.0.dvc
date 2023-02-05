@@ -1,0 +1,4 @@
+outs:
+- md5: b965d523ea5c04ea3290c31685f8c113
+  size: 11394
+  path: events.out.tfevents.1675571982.manjaro.12132.0

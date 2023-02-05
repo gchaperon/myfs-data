@@ -1,0 +1,5 @@
+[core]
+    remote = ssh-remote
+    autostage = true
+['remote "ssh-remote"']
+    url = ssh://gchapero@dichato.dcc.uchile.cl/u/m/mag/2021/gchapero/dvc
