@@ -1,9 +1,15 @@
 [build-system]
-requires = ["setuptools", "wheel"]
+requires = ["setuptools", "wheel", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "cero-researh"
-version = "0.1.0"
-
-
+name = "gchapero-models"
+dynamic = ["version"]
+dependencies = [
+	"torch",
+	"lightning",
+	"torchmetrics",
+	"torchvision",
+	"click",
+]
+requires-python = ">=3.8"
